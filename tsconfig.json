@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["es5", "es6", "dom", "es2017"],
+        "moduleResolution": "node",
+        "preserveConstEnums": true,
+        "module": "commonjs",
+        "typeRoots": [
+        ],
+        // "outFile": "build/test.js",
+        "outDir": "dist",
+        "declaration": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "traceResolution": true
+    },
+    "include": [
+        "ServiceA.ts",
+        "ServiceB.ts",
+        "ServiceC.ts",
+    ]
+}
